@@ -1,1 +1,1 @@
-# PopClipExtensions-Opera
+This is a extension for PopClip to open highlighted URL in Opera web browser

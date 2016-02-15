@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>opera.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>httpurls</string>
+			</array>
+			<key>Shell Script File</key>
+			<string>open-in-opera.sh</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>open in Opera</string>
+				<key>ru</key>
+				<string>открыть в Opera</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.operasoftware.Opera</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+			<string>http://opera.com</string>
+			<key>Name</key>
+			<string>Opera browser</string>
+		</dict>
+	</array>
+	<key>Blocked Apps</key>
+	<array>
+		<string>com.operasoftware.Opera</string>
+	</array>
+	<key>Extension Description</key>
+	<dict>
+		<key>en</key>
+		<string>Open the link in Opera.</string>
+		<key>ru</key>
+		<string>Открыть ссылку в Opera.</string>
+	</dict>
+	<key>Extension Identifier</key>
+	<string>com.opera.openurl</string>
+	<key>Extension Name</key>
+	<string>Open in Opera</string>
+	<key>Name</key>
+	<string>Igor Rakitin</string>
+	<key>Preserve Image Color</key>
+	<true/>
+</dict>
+</plist>
